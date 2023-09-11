@@ -23,4 +23,4 @@ jobs:
       - run: echo -e "\e[32m Done \e[0m"
       - run: echo "hello world"
       - run: echo ${{ vars.VAR_RA }}
-      - run: echo ${{ env.VAR_RA }}
+      - run: echo ${{ vars.VAR_RA1 }}
