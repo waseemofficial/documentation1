@@ -22,4 +22,5 @@ jobs:
       - run: mkdocs gh-deploy --force
       - run: echo -e "\e[32m Done \e[0m"
       - run: echo "hello world"
-      - run: echo ${{ github.env.VAR }}
+      - run: echo ${{ vars.VAR_RA }}
+      - run: echo ${{ env.VAR_RA }}
