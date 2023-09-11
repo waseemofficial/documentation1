@@ -2,6 +2,8 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+[![ci](https://github.com/waseemofficial/documentation1/actions/workflows/ci.yml/badge.svg)][def]
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
@@ -40,3 +42,5 @@ MCU->Senser:start
 MCU->Senser: Slave address
 Senser-->MCU:ACK
 ```
+
+[def]: https://github.com/waseemofficial/documentation1/actions/workflows/ci.yml
