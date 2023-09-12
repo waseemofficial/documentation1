@@ -18,6 +18,14 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
+```py title="name mkdocs"
+name = "mkdocs"
+def hello(name) {
+	print("hi",name)
+}
+```
+## vega-lite
+
 ```vega-lite
 {
 "mark":"line",
